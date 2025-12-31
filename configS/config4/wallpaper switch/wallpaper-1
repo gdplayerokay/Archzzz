@@ -1,0 +1,5 @@
+sudo rm ~/.config/hypr/wallpapers/wallpaper.conf
+sudo cp ~/Scripts/portal/wallpaper.conf ~/.config/hypr/wallpapers/
+
+pkill hyprpaper
+hyprpaper & disown
